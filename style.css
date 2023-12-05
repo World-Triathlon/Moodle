@@ -222,3 +222,137 @@ width: 100%;
     content: url("https://education.triathlon.org/pluginfile.php/11447/user/icon/moove/f1");
 }
 
+ /*Creates an aside containing the Tactical Considerations items <aside class="TacticalConsiderations"></aside>*/
+  .TacticalConsiderations {
+   width: 100%;
+   padding: .4rem;
+   margin: 1rem;
+   float: right;
+   background-color: #f2f4f5;
+  box-shadow: 3px 3px;
+  border-radius: 10px;
+  border-style: solid;
+  }
+
+/*adds the Tactical Consideratons icon to items that have the subclass of TacticalConsiderations added*/
+.TacticalConsiderations::before {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_business_chess_management_finance_icon.png");
+float: right;
+margin:0.3rem;
+}
+
+.SessionPlanOuter {
+border-style: solid;
+    border-color: #000000;
+    border-width: 0.4rem;
+    border-radius: 1.2rem;
+   padding: .4rem;
+}
+.SessionPlanItem {
+    position:relative;
+    border-style: solid;
+    border-color: #E6E6E6;
+    background-color: #FAFAFA;
+    border-width: 0.35rem;
+    border-radius: 1.2rem;
+    margin: 0.5rem;
+    padding: 10px;
+}
+.SessionPlanHeading {
+    min-height: 50px;
+    margin-top: 15px;
+}
+
+/*adds the skill description icon to items that have the subclass of Description added*/
+.SessionPlanItem.Description::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727557_skill_transferring_brain_human_head_iconA9D0F5.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Description {
+    border-color: #A9D0F5;
+}
+
+/*adds the Preparation of skill icon to items that have the subclass of Preparation added*/
+.SessionPlanItem.Preparation::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727565_solution_solve_hands_business_gear_icon81BEF7.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Preparation {
+    border-color: #81BEF7;
+}
+
+/*adds the Progression icon to items that have the subclass of Progression added*/
+.SessionPlanItem.Progression::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727569_decision_arrows_traffic_direction_business_icon58ACFA.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Progression {
+    border-color: #58ACFA
+;
+}
+
+/*adds the Focus icon to items that have the subclass of Focus added*/
+.SessionPlanItem.Focus::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727534_vision_eye_view_business_focus_icon2E9AFE.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Focus {
+    border-color: #2E9AFE;
+}
+
+/*adds the Drills and Equipment icon to items that have the subclass of Drills added*/
+.SessionPlanItem.Drills::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727582_management_gear_wheel_time_equipment_icon0080FF.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Drills {
+    border-color: #0080FF;
+}
+
+/*adds the Fault Fixers icon to items that have the subclass of Fixers added*/
+.SessionPlanItem.Fixers::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727559_teamwork_wheel_engineering_cogwheel_mechanism_icon0174DF.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Fixers {
+    border-color: #0174DF;
+}
+
+/*adds the File icon to items that have the subclass of File added*/
+.SessionPlanItem.File::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727568_folders_files_business_document_storage_iconTRANSITIONBLUE.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.File {
+    border-color: #2250e3;
+}
+
+/*adds the Tactical icon to items that have the subclass of Tactical added*/
+.SessionPlanItem.Tactical::after {
+    content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_business_chess_management_finance_icon.png");
+    position: absolute;
+    top: 6px;
+    right: 10px;
+}
+.SessionPlanItem.Tactical {
+    border-color: #000000;
+}
+
+/*Adds rounded corners to images*/
+.roundedcorners {
+   border-radius: 5%;
+}

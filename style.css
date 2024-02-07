@@ -355,5 +355,6 @@ border-style: solid;
 
 /*Adds rounded corners to images*/
 .roundedcorners {
-   border-radius: 5%;
+     border-radius: 1rem;
+     padding: 0.4rem;
 }

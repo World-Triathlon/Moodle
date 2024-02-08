@@ -358,7 +358,3 @@ border-style: solid;
      border-radius: 1rem;
      padding: 0.4rem;
 }
-
-.collapse:not(.show) {
-    display: none;
-}

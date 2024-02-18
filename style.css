@@ -358,3 +358,132 @@ border-style: solid;
      border-radius: 1rem;
      padding: 0.4rem;
 }
+
+/*Creates the focus item mechanism*/
+/*Folder corner ribbon as per https://codepen.io/t_afif/pen/dyZOBex */
+.ribbon-2 {
+  --f: 1px; /* control the folded part*/
+  --r: 5px; /* control the ribbon shape */
+  --t: 0px; /* the top offset */
+  position: absolute;
+  inset: var(--t) calc(-1*var(--f)) auto auto;
+  padding: 5px 10px calc(5px + var(--f)) calc(10px + var(--r));
+  background: #566573;
+border-radius: 0 0 0 0.5rem;
+color: #000000;
+}
+
+/*Creates a lozenge shaped item with an icon on the left, and the name on the right using the ribbon-2 class above*/
+.focusitem {
+    position: relative;
+    margin: 0 0 1.5rem;
+    padding: 2.5rem 1rem 1rem 7rem;
+    background-size: 100% 1px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background: #F8F8F8;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border-style: solid;
+}
+.focusitem:before {
+    font-weight: 700;
+    color: #fff;
+    padding: 0.88rem 1rem;
+    margin-right: 1rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.keypoint {
+    border-color: #75b62a;
+}
+.keypoint:before {
+content:url("https://moodle-assets.triathlon.org/Icons/7727564_target_focus_arrow_aim_goal_iconWHITE.png"); 
+   background: #75b62a;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.keypointribbon {
+    background-color: #75b62a;
+    color: #ffffff;
+}
+
+.toptip {
+    border-color: #90c561;
+}
+.toptip:before {
+content:url("https://moodle-assets.triathlon.org/Icons/10227871_idea generation_business and finance_idea_light bulb_key_iconWHITE.png"); 
+   background: #90c561;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.toptipribbon {
+    background-color: #90c561;
+    color: #ffffff;
+}
+
+.newwarning {
+    border-color: #acd48b;
+    font-weight: 700;
+}
+.newwarning:before {
+content:url("https://moodle-assets.triathlon.org/Icons/216514_warning_icon.png"); 
+   background: #acd48b;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.newwarningribbon {
+    background-color: #acd48b;
+}
+
+.newsummary {
+    border-color:#c7e3b2;
+}
+.newsummary:before {
+content:url("https://moodle-assets.triathlon.org/Icons/7727580_clipboard_pen_list_business_paper_icon.png"); 
+   background: #c7e3b2;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.newsummaryribbon {
+    background-color: #c7e3b2;
+}
+
+.learningoutcomes {
+    border-color:#302682;
+}
+.learningoutcomes:before {
+content:url("https://moodle-assets.triathlon.org/Icons/10166860_global education_education_learning_university_college_icon.png"); 
+   background: #302682;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.learningoutcomesribbon {
+    background-color: #302682;
+    color: #ffffff;
+}
+
+.tactical {
+    border-color: #000000;
+}
+.tactical:before {
+content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_business_chess_management_finance_iconWHITE.png");
+   background: #000000;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.tacticalribbon {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.author {
+    border-color: #566573;
+   padding: 2.5rem 1rem 1rem 1rem;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.authorribbon {
+    background-color: #566573;
+    color: #ffffff;
+}
+
+/*End of focus item mechanism*/

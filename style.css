@@ -416,6 +416,19 @@ border-style: solid;
      padding: 0.4rem;
 }
 
+/*Creates the Details/Summary mechanism */
+.detailsbordered {
+    border-style: solid;
+    border-radius: 0.5rem;
+    border-width: thin;
+    padding: 0.7rem;
+    border-color: #ccd1d6;
+}
+summary {
+    font-size: large;
+    font-weight: 700;
+}
+
 /*Creates the focus item mechanism*/
 /*Folder corner ribbon as per https://codepen.io/t_afif/pen/dyZOBex */
 .ribbon-2 {
@@ -505,6 +518,19 @@ content:url("https://moodle-assets.triathlon.org/Icons/7727580_clipboard_pen_lis
 /*Add this attribute to the ribbon 2 element to change the background colour*/
 .newsummaryribbon {
     background-color: #c7e3b2;
+}
+
+.knowledge {
+    border-color: #2250e3;
+}
+.knowledge:before {
+content:url("https://moodle-assets.triathlon.org/Icons/1608426_circle_question_iconWHITE.png"); 
+   background: #2250e3;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.knowledgeribbon {
+    background-color: #2250e3;
+    color: #ffffff;
 }
 
 .learningoutcomes {

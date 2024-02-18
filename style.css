@@ -93,19 +93,19 @@ table {
    align-items: stretch;
    justify-content: center;
    }
-   .modulecard {
+   article.modulecard {
    flex: 0 0 275px;
    margin: 10px;
    border: 1px solid #ccc;
    box-shadow: 2px 2px 6px 0px rgba(0,0,0,0.3);
    } 
-   .modulecard img {
+  article .modulecard img {
    max-width: 100%;
    }
-   .modulecard .text {
+   article.modulecard .text {
    padding: 20px 20px 20px;
    }
-   .modulecard .text > button {
+   article.modulecard .text > button {
    background: gray;
    border: 0;
    color: white;

@@ -442,6 +442,18 @@ summary {
 border-radius: 0 0 0 0.5rem;
 color: #000000;
 }
+/*Alternative ribbon appearing top left*/
+.ribbon-topleft {
+    --f: 1px;
+    --r: 5px;
+    --t: 0px;
+    position: absolute;
+    inset: 0 auto auto 0.25px;
+    padding: 5px 10px calc(5px + var(--f)) calc(10px + var(--r));
+    background: #566573;
+    border-radius: 0.5rem 0 0.5rem 0;
+    color: #ffffff;
+}
 
 /*Creates a lozenge shaped item with an icon on the left, and the name on the right using the ribbon-2 class above*/
 .focusitem {
@@ -591,3 +603,27 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
       }
   }
 /*End of 2x2 grid*/
+
+/* Creates a compare style side by side grid*/
+.comparegrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 0.5rem;
+}
+/*Creates the cells that go into the comparegrid*/
+.compare {
+    position: relative;
+    border-color: #ccd1d6;
+    border-style: Solid;
+   border-radius: 0.5rem;
+   background: #F8F8F8;
+   padding: 2.5rem 1rem 1rem 0.5rem;
+   margin: 0.3rem;
+}
+/*On narrower screens, change the grid so that it displays single column width*/
+@media screen and (max-width: 45em) {
+      .comparegrid {
+          grid-template-columns: 100%;
+      }
+  }
+/*End of comparegrid*/

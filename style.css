@@ -576,6 +576,7 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
   display: grid;
   grid-template-columns: 50% 50%;
   border: #000000 3px solid;
+  margin-bottom: 0.75rem;
 }
 /*Creates the cells that go into the 2x2 grid*/
 .cell2by2 {

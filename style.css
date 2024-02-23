@@ -627,3 +627,25 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
       }
   }
 /*End of comparegrid*/
+
+/*creates the further info details/summary mechanism*/
+.FurtherInfo {
+    background-color: #FAF4C8;
+    padding: 5px;
+    border-style: solid;
+    border-color:  #000000;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*creates the advanced info details/summary mechanism*/
+.AdvancedInfo {
+    background-color: #FAE3C8;
+    padding: 5px;
+    border-style: solid;
+    border-color:  #000000;
+    border-radius: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}

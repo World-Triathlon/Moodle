@@ -508,16 +508,17 @@ content:url("https://moodle-assets.triathlon.org/Icons/10227871_idea generation_
 }
 
 .newwarning {
-    border-color: #acd48b;
+    border-color: #6D62D0;
     font-weight: 700;
 }
 .newwarning:before {
-content:url("https://moodle-assets.triathlon.org/Icons/216514_warning_icon.png"); 
-   background: #acd48b;
+content:url("https://moodle-assets.triathlon.org/Icons/216514_warning_iconWHITE.png"); 
+   background: #6D62D0;
 }
 /*Add this attribute to the ribbon 2 element to change the background colour*/
 .newwarningribbon {
-    background-color: #acd48b;
+    background-color: #6D62D0;
+    color: #ffffff;
 }
 
 .newsummary {

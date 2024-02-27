@@ -522,15 +522,16 @@ content:url("https://moodle-assets.triathlon.org/Icons/216514_warning_iconWHITE.
 }
 
 .newsummary {
-    border-color:#c7e3b2;
+    border-color:#302682;
 }
 .newsummary:before {
-content:url("https://moodle-assets.triathlon.org/Icons/7727580_clipboard_pen_list_business_paper_icon.png"); 
-   background: #c7e3b2;
+content:url("https://moodle-assets.triathlon.org/Icons/7727580_clipboard_pen_list_business_paper_iconWHITE.png"); 
+   background: #302682;
 }
 /*Add this attribute to the ribbon 2 element to change the background colour*/
 .newsummaryribbon {
-    background-color: #c7e3b2;
+    background-color: #302682;
+    color: #ffffff;
 }
 
 .knowledge {

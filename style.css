@@ -651,3 +651,39 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
 }
+
+/*Creates the cards where text can overlay the image*/
+.Overlay_image-container {
+  position: relative;
+  display: block;
+}
+.Overlay_image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.Overlay_TopLeftNumber {
+  position: absolute;
+  top: 0%; 
+  left: 0%; 
+  background-color: #2451e2; 
+  color: #fff; 
+  width: 3rem;
+  height: 2rem;
+  font-size: 20px; 
+  text-align: center;
+  border-bottom-right-radius: 1rem;
+}
+.Overlay_Bottom {
+  position: absolute; 
+  background: rgba(57, 57, 57, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; 
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 0.3rem;
+}
+

@@ -689,3 +689,62 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
   padding: 0.3rem;
 }
 
+ /* colours from the World Triathlon Palette*/
+  
+  .transitionblue {
+  background-color: #2250e3;
+  color: #ffffff;
+  }
+  
+  .lawngreen {
+  background-color: #66d463;
+  colour: #2250e3;
+  }
+  
+  .skyblue {
+  background-color: #52adf5;
+  color: #ffffff;
+  }
+  
+  .dewgreen {
+  background-color: #80edb2;
+  colour: #2250e3;
+  }
+  
+  .leafgreen {
+  background-color: #75b62a;
+  colour: #2250e3;
+  }
+  
+  .mistgrey {
+  background-color: #ccd1d6;
+  colour: #2250e3;
+  }
+  
+  .cloudwhite {
+  background-color: #ffffff;
+  colour: #2250e3;
+  }
+  
+  .oceanblue {
+  background-color: #302682;
+  color: #ffffff;
+  }
+  
+  .deepnavy {
+  background-color: #281e32;
+  color: #ffffff;
+  }
+  
+  .lavendar {
+  background-color: #d4ebfc;
+  }
+  
+  .whitesmoke {
+  background-color: #f2f4f5;
+  }
+  
+  .honeydew {
+  background-color: #dffbec;
+  }
+

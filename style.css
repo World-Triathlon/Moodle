@@ -748,3 +748,71 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
   background-color: #dffbec;
   }
 
+/*Box used to put authored by into*/
+.AuthoredBy {
+    padding: 0.4rem;
+    margin: 1rem;
+    background-color: #f2f4f5;
+    box-shadow: 3px 3px #68d565;
+    border-color: #68d565;
+    border-radius: 10px;
+    border-style: solid;
+    min-height: 90px;
+    width: 100%;
+    float: right;
+}
+
+/*Mechanism for adding right floating icons to content*/
+/*This decides how the icons behave*/
+.WT_Icon {
+ margin-left: 1rem;
+ margin-right: 1rem;
+}
+
+/*Sets if floating right or left*/
+ .FloatRight {float:right;}
+ .FloatLeft {float:left;}
+
+/*This sets the icon width*/
+.W50px {width: 50px}
+.W75px {width: 75px}
+.W100px {width: 100px}
+.W10pc {width: 10%;}
+.W20pc {width: 20%;}
+.W25pc {width: 25%;}
+.W30pc {width: 30%;}
+
+div.WT_Icon img {
+object-fit: contain;
+width: 100%;
+}
+
+/*Makes the image round*/
+.ImageRound {
+   border-radius: 50%;
+}
+
+/*Each icon has a unique class and file URL*/
+.EmmaCarney {
+    content: url("https://education.triathlon.org/pluginfile.php/11447/user/icon/moove/f1");
+}
+
+/*Each icon has a unique class and file URL*/
+.ScottMurray {
+    content: url("https://education.triathlon.org/pluginfile.php/7300/user/icon/moove/f1");
+}
+
+/*Each icon has a unique class and file URL*/
+.FabioRastelli {
+    content: url("https://education.triathlon.org/pluginfile.php/112526/user/icon/moove/f1");
+}
+
+/*Each icon has a unique class and file URL*/
+.FranzStuder {
+    content: url("https://education.triathlon.org/pluginfile.php/490/user/icon/moove/f1");
+}
+
+/*Each icon has a unique class and file URL*/
+.BenEastman {
+    content: url("https://education.triathlon.org/pluginfile.php/90457/user/icon/moove/f1");
+}

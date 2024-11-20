@@ -484,6 +484,11 @@ color: #000000;
     place-items: center;
 }
 
+/*If a form text area is added to a focus item, this sets it to be 100% widht*/
+.focusitem textarea {
+    width: 100%;
+}
+
 .keypoint {
     border-color: #75b62a;
 }

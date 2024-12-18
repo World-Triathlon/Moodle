@@ -290,6 +290,33 @@ width: 100%;
 .EmmaCarney {
     content: url("https://education.triathlon.org/pluginfile.php/11447/user/icon/moove/f1");
 }
+.ScottMurray {
+    content: url("https://education.triathlon.org/pluginfile.php/7300/user/icon/moove/f1");
+}
+.FabioRastelli {
+    content: url("https://education.triathlon.org/pluginfile.php/112526/user/icon/moove/f1");
+}
+.FranzStuder {
+    content: url("https://education.triathlon.org/pluginfile.php/490/user/icon/moove/f1");
+}
+.BenEastman {
+    content: url("https://education.triathlon.org/pluginfile.php/90457/user/icon/moove/f1");
+}
+.IrinaZelenkova {
+    content: url("https://education.triathlon.org/pluginfile.php/31219/user/icon/moove/f1");
+}
+.TylerSmith {
+    content: url("https://education.triathlon.org/pluginfile.php/52552/user/icon/moove/f1");
+}
+.MatthewWright {
+    content: url("https://education.triathlon.org/pluginfile.php/14981/user/icon/moove/f1");
+}
+.RobertoCejuela {
+    content: url("https://education.triathlon.org/pluginfile.php/68480/user/icon/moove/f1");
+}
+.ReinoutVanSchuylenbergh {
+    content: url("https://education.triathlon.org/pluginfile.php/32868/user/icon/moove/f1");
+}
 
  /*Creates an aside containing the Tactical Considerations items <aside class="TacticalConsiderations"></aside>*/
   .TacticalConsiderations {

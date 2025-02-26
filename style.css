@@ -617,6 +617,19 @@ content: url("https://moodle-assets.triathlon.org/Icons/7727560_strategy_busines
     color: #ffffff;
 }
 
+.exampleanswer {
+    border-color: #99a3a4;
+}
+.exampleanswer:before {
+content:url("https://moodle-assets.triathlon.org/Icons/9004700_tick_check_mark_accept_iconWHITE.png"); 
+   background: #99a3a4;
+}
+/*Add this attribute to the ribbon 2 element to change the background colour*/
+.exampleanswerribbon {
+    background-color: #99a3a4 ;
+    color: #ffffff;
+}
+
 .author {
     border-color: #566573;
    padding: 2.5rem 1rem 1rem 1rem;

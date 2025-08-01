@@ -850,6 +850,7 @@ width: 100%;
   /*Creates a transparent side by side container*/
   .sidebyside-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: stretch;
   padding: 5px;
   width: 100%;

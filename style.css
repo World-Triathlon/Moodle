@@ -847,6 +847,21 @@ width: 100%;
    border-radius: 50%;
 }
 
+  /*Creates a transparent side by side container*/
+  .sidebyside-container {
+  display: flex;
+  align-items: stretch;
+  padding: 5px;
+  width: 100%;
+  margin: 0 0 20px 0;
+  list-style-position: inside;
+  }
+
+/*Creates a padded div - often used within a side by side container*/
+.padded_div {
+    padding: 1rem;
+}
+
 /*Each icon has a unique class and file URL*/
 .EmmaCarney {
     content: url("https://education.triathlon.org/pluginfile.php/11447/user/icon/moove/f1");
@@ -889,4 +904,7 @@ width: 100%;
 }
 .JonathanEsteve {
     content: url("https://education.triathlon.org/pluginfile.php/128129/user/icon/moove/f1");
+}
+.KristinaSkroce {
+    content: url("https://education.triathlon.org/pluginfile.php/6999/user/icon/moove/f1");
 }
